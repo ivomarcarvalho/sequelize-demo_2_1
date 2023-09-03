@@ -1,0 +1,39 @@
+{
+  "name": "sequelize-demo2_1",
+  "version": "1.0.0",
+  "main": "server.js",
+  "bin": {
+    "sequelize-demo2_1": "server.js"
+  },
+  "pkg": {
+    "assets": [
+      "config.ini"
+    ],
+    "targets": [
+      "node14-linux-x64",
+      "node14-macos-x64",
+      "node14-win-x64"
+    ]
+  },
+  "scripts": {
+    "dev": "nodemon /src/server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "ini": "^4.1.1",
+    "mysql2": "^3.6.0",
+    "node-firebird": "^1.1.5",
+    "sequelize": "^6.32.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "nodemon": "^3.0.1"
+  },
+  "private": true,
+  "description": "expo init sequelize-demo2_1 ou npm i init -y\r npm i nodemon -D\r npm i express\r npm install –save ini",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
